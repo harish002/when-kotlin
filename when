@@ -1,0 +1,29 @@
+fun main() {
+    
+    
+    	var num1:Int
+    	var num2:Int
+		var op:String?=""
+	
+    	
+    	println("Enter First Number")
+    	num1=readLine()!!.toInt()
+    	
+    
+    	println("Enter Oprator")	
+    	op=readLine()!!
+        
+        println("Enter Second Number")
+        num2=readLine()!!.toInt()
+        
+        
+        
+       when(op){
+            "+" -> println(num1 + num2)
+            "-" -> println(num1 - num2)
+			"/"-> println(num1 / num2)
+            "*" -> println(num1 * num2)
+            else -> println("Incorrect Input")
+        }
+    	
+    }
